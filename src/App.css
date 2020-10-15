@@ -2,37 +2,64 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(90deg, white,  gray, white );
+}
+
+.comment {
+  width: 500px;
+  max-width: 500px;
+  height: 80px;
+  margin: 10px;
+  background-color: black;
   color: white;
+  box-shadow: white 5px 5px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+#comment-section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: auto;
+}
+fieldset {
+  height: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bold {
+  font-size: 14px;
+  font-family: 'Arial Black';
+}
+
+.text {
+
+}
+
+h1 {
+  font-family: 'Felix Titling';
+}
+
+p {
+  font-family: 'Mistral';
+  width: 600px;
+  font-size: 18px;
+}
+
+input {
+  margin: 5px;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bold;
+
 }
